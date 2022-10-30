@@ -1,0 +1,354 @@
+.product-page-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-left img {
+  width: 500px;
+  border-radius: 32px;
+}
+
+.product-page-title h1 {
+  font-size: 32px;
+}
+
+.product-right {
+  flex: 1;
+}
+
+.product-left {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.product-page-rating {
+  color: var(--primarycolor);
+}
+
+.product-page-price .product-page-actual-price {
+  text-decoration-line: line-through;
+}
+
+.product-page-price .product-page-discounted-price {
+  font-size: 24px;
+  color: var(--primarycolor);
+}
+
+.product-page-price .product-page-saved-cost {
+  color: var(--primarycolor);
+}
+
+.product-page-availability-status {
+  font-size: 24px;
+  color: var(--primarycolor);
+  margin: 5px 0px;
+}
+
+.product-page-price {
+  margin: 5px 0px;
+}
+
+.product-page-sold-by {
+  margin: 5px 0px;
+}
+
+.product-page-about-this-item h5 {
+  font-size: 22px;
+}
+
+#more {
+  display: none;
+}
+
+#myBtn {
+  margin-top: 10px;
+  border: none;
+  background-color: none;
+  font-family: var(--body-font);
+  color: var(--primarycolor);
+
+}
+
+.product-page-about-this-item p {
+  text-align: justify;
+}
+
+.product-page-buttons {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+.product-page-buy-button {
+  margin-right: 10px;
+}
+
+.product-page-buttons button {
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: var(--primarycolor);
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.product-page-buy-button:hover button {
+  background-color: var(--secondarycolor);
+  color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: 0.5s;
+}
+
+.product-page-add-to-cart-button:hover button {
+  background-color: var(--secondarycolor);
+  color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: 0.5s;
+}
+
+.product-section-second-section {
+  margin: 60px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+
+.product-section-second-section-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  background-color: var(--themecolor);
+  padding: 10px;
+  border-radius: 32px;
+  border: none;
+}
+
+.product-section-second-section-related-products {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.product-section-second-section-related-product {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.product-section-second-section-related-product:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: 0.4s;
+}
+
+.product-section-second-section-related-product img {
+  width: 150px;
+  border-radius: 32px;
+}
+
+.product-section-second-section-related-product h5,
+.product-section-second-section-related-product span {
+  padding-left: 15px;
+}
+
+.product-section-second-section-related-products>div {
+  margin: 10px;
+}
+
+.product-section-third-section {
+  margin-top: 60px;
+}
+
+.product-section-third-section p {
+  text-align: justify;
+}
+
+.important-information {
+  margin-top: 50px;
+}
+
+.important-text {
+  color: var(--primarycolor);
+}
+
+.product-section-fourth-section {
+  margin-top: 100px;
+}
+
+.product-page-in-stock {
+  color: var(--okcolor-light-mode);
+  border: 1px solid var(--okcolor-light-mode);
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-page-out-stock {
+  border: 1px solid var(--primarycolor);
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-section-reviews-title h5 {
+  font-size: 28px;
+}
+
+.product-section-review-first-section {
+  display: flex;
+}
+
+.product-section-reviews-icon {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.product-section-reviews-username h6 {
+  font-size: 22px;
+}
+
+.product-section-review {
+  margin-top: 20px;
+  border: 1px solid var(--darkgrey);
+  border-radius: 32px;
+  padding: 10px;
+}
+
+/*post review section**/
+.rateheading {
+  font-family: var(--heading-font);
+  text-align: center;
+  text-transform: uppercase;
+  background-color: var(--themecolor);
+  padding: 5px;
+  margin: 30px auto;
+  border-radius: 32px 32px 0px 0px;
+  font-size: 35px;
+  color: black;
+}
+
+.product-review {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 32px;
+
+}
+
+.product-review a {
+  color: var(--primarycolor);
+}
+
+.product-review form {
+  width: 100%;
+  padding: 15px;
+}
+
+.review_area {
+  padding: 10px;
+  border-radius: 12px;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 14px;
+  resize: none;
+  border: 1px light-grey;
+}
+
+.rate_area {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+.subreview {
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  font-family: var(--body-font);
+  font-weight: 400;
+  border-radius: 50%;
+  font-size: 24px;
+  background-color: var(--primarycolor);
+  color: white;
+  border: none;
+
+}
+
+.subreview:hover {
+  background-color: var(--secondarycolor);
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+@media (max-width: 768px) {
+
+  .product-left img {
+    width: 350px;
+  }
+
+  .product-page-elements {
+    flex-direction: column;
+  }
+
+  .product-left {
+    margin-right: 0px;
+  }
+
+  .product-section-third-section {
+    margin-top: 50px;
+  }
+
+  .product-section-second-section {
+    margin: 50px 0px 0px 0px;
+  }
+
+  .product-section-second-section-related-products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+}
+
+
+
+@media (max-width: 470px) {
+
+  .product-section-second-section-related-products {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .product-section-second-section-related-product,
+  .product-section-second-section-related-product h5,
+  .product-section-second-section-related-product span {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .product-right {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+  }
+
+
+}
+
+
+@media (max-width: 320px) {
+
+  .product-section-second-section-related-product h5,
+  .product-section-second-section-related-product span {
+    font-size: 12px;
+  }
+}

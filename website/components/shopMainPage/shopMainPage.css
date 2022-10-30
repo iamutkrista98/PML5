@@ -1,0 +1,39 @@
+@import url(../homeDeals/homDeals.css);
+
+.shop-banner-elements {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.shop-banner-elements-logo {
+  font-size: 32px;
+}
+
+.shop-banner-elements-name h6 {
+  font-size: 25px;
+}
+
+.shop-banner-elements-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.shop-banner-inner-elements {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.shop-banner-elements-left {
+  flex: 1;
+}
+
+.shop-banner-elements-right {
+  flex: 1;
+}
+
+.shopmainpage-elements {
+  width: 100%;
+}

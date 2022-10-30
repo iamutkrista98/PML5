@@ -1,0 +1,239 @@
+.account {
+  width: 80%;
+  justify-content: center;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+.account h3 {
+  font-size: 18px;
+}
+
+.account h4,
+h5 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.account .pimage {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.account img {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18vh;
+  height: 18vh;
+  border-radius: 50%;
+}
+
+.accheading {
+  font-family: var(--heading-font);
+  text-align: center;
+  text-transform: uppercase;
+  background-color: var(--themecolor);
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 12px 12px 0px 0px;
+  font-size: 35px;
+  color: black;
+}
+
+.details form {
+  padding: 5px;
+}
+
+.details form input {
+  width: 100%;
+  padding: 3px;
+  margin: 5px auto;
+  font-family: var(--body-font);
+  font-size: 15px;
+  border-color: var(--darkgrey);
+  border-radius: 0px 32px 32px 0px;
+}
+
+.details form i {
+  font-size: 18px;
+}
+
+.details form label {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: var(--body-font);
+  font-weight: 600;
+  margin-bottom: 5px;
+  background-color: var(--themecolor);
+  padding: 8px;
+  border-radius: 0px 32px 32px 0px;
+  color: black;
+}
+
+.update {
+  padding: 5px;
+  margin: 0 auto;
+  display: flex;
+  font-family: var(--body-font);
+  font-weight: 400;
+  border-radius: 12px;
+  font-size: 16px;
+  color: black;
+  border: none;
+}
+
+.update i {
+  font-size: 18px;
+  margin: auto;
+}
+
+.update:hover {
+  background-color: var(--secondarycolor);
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px auto;
+}
+
+.table td,
+.table th {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 16px;
+  width: 95px;
+}
+
+.table td a {
+  text-decoration: none;
+}
+
+.table td a:hover {
+  color: var(--primarycolor);
+}
+
+.table th {
+  background-color: var(--themecolor);
+  color: black;
+}
+
+.qty {
+  width: 65px;
+  height: 21px;
+  border-radius: 5px;
+}
+
+.button {
+  width: 210px;
+  height: 40px;
+  font-size: 18px;
+  background-color: beige;
+  border: none;
+  cursor: pointer;
+  color: green
+}
+
+/*responsive*/
+
+@media(max-width: 700px) {
+  .table thead {
+    display: none;
+  }
+
+  .table,
+  .table tbody,
+  .table tr,
+  .table td {
+    display: block;
+    width: 100%;
+  }
+
+  .table tr {
+    margin-bottom: 15px;
+  }
+
+  .table td {
+    text-align: right;
+    padding-left: 50%;
+    text-align: right;
+    position: relative;
+  }
+
+  .table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+
+@media(max-width: 420px) {
+  .button {
+    width: 130px;
+    font-size: 13px;
+
+  }
+
+}
+
+.payment_status1 {
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.payment_status_0 {
+  background-color: red;
+}
+
+.payment_status_1 {
+  background-color: green;
+}
+
+.order_status1 {
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.order_status_0 {
+  background-color: red;
+}
+
+.order_status_1 {
+  background-color: green;
+}
+
+.options {
+  gap: 15px;
+  font-size: 16px;
+}
+
+.options .wishoption {
+  padding: 5px;
+}
+
+.options .orderoption {
+  padding: 5px;
+}
+
+.options a {
+  font-weight: 400;
+}
+
+.options a:hover {
+  color: var(--primarycolor);
+}

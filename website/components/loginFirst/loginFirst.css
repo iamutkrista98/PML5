@@ -1,0 +1,112 @@
+.seller-choice img,
+.buyer-choice img {
+  width: 550px;
+  border-radius: 35px;
+  cursor: pointer;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+
+}
+
+.logcontainer {
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 12px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+
+}
+
+.loginFirst-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.seller-choice {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  position: relative;
+}
+
+.buyer-choice {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  position: relative;
+}
+
+.loginFirst-text {
+  font-family: var(--heading-font);
+  text-align: center;
+  text-transform: uppercase;
+  background-color: var(--themecolor);
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 12px 12px 0px 0px;
+  color: black;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.seller-choice h1,
+.buyer-choice h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+  opacity: 0;
+  transition: 0.5s;
+  cursor: pointer;
+  text-shadow: 2px 2px 17px rgba(0, 0, 0, 0.19);
+}
+
+.seller-choice:hover h1 {
+  opacity: 1;
+  transition: 0.5s;
+  color: var(--theme-background);
+  font-size: 60px;
+  background-color: var(--primarycolor);
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.buyer-choice:hover h1 {
+  opacity: 1;
+  transition: 0.5s;
+  color: var(--theme-background);
+  font-size: 60px;
+  background-color: var(--primarycolor);
+  border-radius: 15px;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+
+  .loginFirst-elements {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .loginFirst-text {
+    font-size: 18px;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 385px) {
+
+  .seller-choice h1,
+  .buyer-choice h1 {
+    font-size: 48px;
+  }
+}

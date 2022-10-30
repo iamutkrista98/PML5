@@ -1,0 +1,162 @@
+.traderpage-sidenav-elements {
+  background-color: var(--themecolor);
+  width: 20vw;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.traderpage-sidenav-element {
+  margin-bottom: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+  color: black;
+}
+
+.traderpage-sidenav-element:hover {
+  color: var(--primarycolor);
+  transition: 0.5s;
+}
+
+.traderpage-sidenav-element:first-child {
+  color: var(--primarycolor);
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.traderpage-right {
+  margin-left: 20vw;
+}
+
+
+.traderPage-editdetails-element {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.traderPage-editdetails-element h3 {
+  margin-right: 10px;
+}
+
+
+.traderPage-editdetails-element input {
+  background-color: var(--themecolor);
+  border-radius: 32px;
+  border: none;
+  padding: 10px 20px;
+  width: 200px;
+}
+
+.traderPage-editdetails-element-button button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: var(--primarycolor);
+  border: none;
+  border-radius: 32px;
+  font-size: 18px;
+  color: white;
+}
+
+.traderPage-editdetails-element-button {
+  display: flex;
+}
+
+.traderPage-editdetails-element-button button:first-child {
+  margin-right: 20px;
+}
+
+#products {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#products td,
+#products th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#products tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#products tr:hover {
+  background-color: #ddd;
+}
+
+#products th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--themecolor);
+  color: black;
+}
+
+
+.traderpage-manageproduct-elements-buttons button {
+  padding: 10px;
+  color: white;
+  background-color: var(--primarycolor);
+  border: none;
+  border-radius: 32px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.addproductspage_element {
+  display: flex;
+  flex-direction: column;
+}
+
+.addproductspage_element input,
+.addproductspage_element textarea,
+.traderpage-editproduct-element input {
+  border-radius: 32px;
+  border: 1px solid var(--darkgrey);
+  padding: 10px 20px;
+}
+
+.traderpage-editproduct-element {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+@media (max-width: 768px) {
+
+  .traderpage-sidenav-elements {
+    font-size: 12px;
+  }
+
+  .traderpage-sidenav-element:first-child {
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 517px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 433px) {
+  body {
+    font-size: 8px;
+  }
+
+  .traderpage-sidenav-elements {
+    width: 20vw;
+  }
+
+  .traderpage-right {
+    margin-left: 20vw;
+  }
+
+}

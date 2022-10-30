@@ -1,0 +1,191 @@
+.dark .light-switch {
+  color: var(--primarytextcolor);
+}
+
+.dark .dark-switch {
+  color: var(--primarycolor);
+}
+
+.dark {
+  background-color: var(--darkgrey);
+  color: white;
+}
+
+.dark .icon span {
+  border: 2px solid white;
+}
+
+.dark .switches {
+  border: 2px solid white;
+}
+
+.dark .hero .text {
+  color: var(--primarytextcolor);
+}
+
+.dark .trader {
+  color: var(--primarytextcolor);
+}
+
+.dark .featured-product {
+  background-color: var(--dark-featured-product);
+  box-shadow: none !important;
+}
+
+.dark .features {
+  background-color: var(--dark-featured-product);
+  box-shadow: none !important;
+}
+
+.dark .middle-featured {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.dark .light-logo {
+  display: none;
+}
+
+.dark-logo {
+  display: none;
+}
+
+.dark .dark-logo {
+  display: block;
+}
+
+.dark footer {
+  color: white;
+}
+
+.dark #deals .old-price {
+  text-decoration-color: var(--primarycolor);
+}
+
+
+.dark .footer-nav a {
+  color: white;
+}
+
+.dark .popup-window {
+  color: var(--primarytextcolor);
+}
+
+.dark .login-box-window {
+  background-color: var(--darkgrey);
+}
+
+.dark .form-box {
+  background-color: var(--darkgrey);
+}
+
+.dark #login-box {
+  background-color: var(--darkgrey);
+  border: 1px solid white;
+}
+
+.dark #login-box.active {
+  background-color: var(--darkgrey);
+}
+
+.dark .hamburger {
+  color: white;
+}
+
+.dark .navbar-list {
+  background-color: var(--darkgrey);
+}
+
+.dark .close {
+  color: white;
+}
+
+/* 
+.dark #products-page {
+  border: 1px solid white;
+} */
+
+.dark .product-page-features {
+  box-shadow: none;
+  background-color: var(--dark-featured-product);
+}
+
+.dark .product-section-second-section-related-product {
+  background-color: var(--dark-featured-product);
+  box-shadow: none;
+}
+
+.dark .sorting-filter {
+  background-color: var(--dark-featured-product);
+  border-radius: 32px;
+}
+
+.dark .all-products .featured-product {
+  box-shadow: none;
+}
+
+.dark .seller-login-form-element label {
+  color: var(--primarytextcolor);
+}
+
+.dark .seller-login-form-element input {
+  border: 1px solid white;
+  background-color: var(--darkgrey);
+  color: white;
+}
+
+.dark .seller-l-form-element label {
+  color: var(--primarytextcolor);
+}
+
+.dark .seller-l-form-element input {
+  border: 1px solid white;
+  background-color: var(--darkgrey);
+  color: white;
+}
+
+.dark .product-page-in-stock {
+  color: var(--okcolor-dark-mode);
+}
+
+.dark .cart-right {
+  color: var(--primarytextcolor);
+}
+
+.dark .cart-left-title,
+.dark .cart-product {
+  border-bottom: 1px solid white;
+}
+
+.dark .cart-product-stock {
+  border: 1px solid white;
+}
+
+.dark .product-section-second-section-title h4 {
+  color: var(--darkgrey);
+}
+
+.dark .product-section-review {
+  border-color: white;
+}
+
+.dark .cart-left-title h5 {
+  color: var(--darkgrey);
+}
+
+@media (max-width: 768px) {
+  .dark .middle-featured {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: none;
+    border-right: none;
+  }
+
+  .dark .icons {
+    border-top: 1px solid white;
+  }
+
+  .dark .products-filter {
+    background-color: var(--darkgrey);
+  }
+}

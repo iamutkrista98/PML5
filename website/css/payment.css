@@ -1,0 +1,43 @@
+.payment {
+    width: 80%;
+    background-color: var(--themecolor);
+    border-radius: 32px;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+.payment h1 {
+    font-size: 32px;
+    font-weight: lighter;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.payment img {
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+.payment a {
+    background-color: var(--primarycolor);
+    font-weight: 700;
+    margin: 10px auto;
+}
+
+.payment h3 {
+    font-weight: lighter;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.payment a:hover {
+    color: var(--primarycolor);
+    transition: 0.5s;
+}

@@ -1,0 +1,93 @@
+.seller-login-elements {
+  display: flex;
+}
+
+.seller-login-picture {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.seller-login-form {
+  flex: 1;
+}
+
+.seller-login-picture img {
+  width: 400px;
+}
+
+.seller-login-form h1 {
+  font-family: var(--heading-font);
+  font-size: 28px;
+}
+
+.seller-login-form-text {
+  margin-bottom: 20px;
+}
+
+.seller-login-form form {
+  width: 100%;
+}
+
+.seller-login-form label {
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: var(--themecolor);
+  padding: 10px;
+  border-radius: 0px 32px 32px 0px;
+  font-weight: 700;
+}
+
+.seller-login-form-element {
+  margin-bottom: 10px;
+}
+
+.seller-login-elements span a {
+  color: var(--primarycolor);
+
+}
+
+.seller-login-elements .last {
+  margin-bottom: 0;
+}
+
+.seller-login-form input {
+  width: 100%;
+  height: 4vh;
+  border-color: var(--darkgrey);
+  border-radius: 0px 32px 32px 0px;
+  padding: 10px;
+}
+
+.seller-login-form button {
+  padding: 10px 20px;
+  width: 100%;
+  background-color: var(--primarycolor);
+  border: none;
+  border-radius: 32px;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.seller-login-form button:hover {
+  transition: 0.5s;
+  color: black;
+}
+
+@media (max-width: 768px) {
+
+  .seller-login-picture {
+    display: none;
+  }
+
+}
+
+@media (max-width: 303px) {
+
+  .seller-login-form-element label {
+    font-size: 14px;
+  }
+}

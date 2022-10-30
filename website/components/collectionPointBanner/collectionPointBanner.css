@@ -1,0 +1,32 @@
+.collection-point {
+  width: 100%;
+  color: white;
+  text-shadow: 2px 2px 20px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.collection-point .text {
+  font-size: 32px;
+  font-family: var(--heading-font);
+}
+
+#collection-point {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center top !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+@media (max-width: 768px) {
+
+  .collection-point .text {
+    font-size: 22px;
+  }
+
+}
