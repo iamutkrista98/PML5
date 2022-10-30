@@ -3,7 +3,7 @@
         <h1>RETURNS POLICY</h1>
         <div class="conditions">
             <p class='top'>
-                At Daily Bread Quintessential(DBQ MART), our approach to credits and returns has remained simple and is aimed at unquestionable customer satisfaction. We ask, as part of our cooperative commitment and are dedicated to improving consumer food standards. Our customers work with us with compliance with the revisions that have been made to this Credit and Returns Policy. DBQ MART will continue to return the credit if any product is not picked up on by the customer behalf. After pickup however, our credit and return policy is limited within certain guidelines.
+                At Utkrista's Daily Bread Quintessential(DBQ MART), our approach to credits and returns has remained simple and is aimed at unquestionable customer satisfaction. We ask, as part of our cooperative commitment and are dedicated to improving consumer food standards. Our customers work with us with compliance with the revisions that have been made to this Credit and Returns Policy. DBQ MART will continue to return the credit if any product is not picked up on by the customer behalf. After pickup however, our credit and return policy is limited within certain guidelines.
             </p>
             <br>
 

@@ -4,7 +4,7 @@
             <h1 class='abtheading'>About Us</h1>
 
             <h2 class="aboutinfo">
-                <p>Daily Bread Quintessential (DBQ MART) is the pioneer in ecommerce platform at Cleckhuddersfax. With the motto '
+                <p>Utkrista Daily Bread Quintessential (DBQ MART) is the pioneer in ecommerce platform at Cleckhuddersfax. With the motto '
                     Quality at its Epitome', we excel in delivering quality produce from a range of local traders. The suburb of Cleckhuddersfax is perceived by its richness in culture and local businesses operated by independent traders. A group of them have come up with the idea to partake in the contemporary act of marketing their products online through an eCommerce platform. The system will conglomerate the products they sell, extending its availability which in turn will allow them to reach out to more customers. The modus operandi entirely is hinged on taking in orders from shoppers and setting up collection points for the distribution. The sole purpose of the undertaking is to extend their business opening hours abating any repercussions made on their personal lives.
 
                     The residents, mostly busy during normal opening hours, would be benefitted from the system in purchasing fresh products from the local traders of their choosing. The traders since the inception of their businesses have emphasized delivering quality products unmatched by any of the supermarkets in the locality.
